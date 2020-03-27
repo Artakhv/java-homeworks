@@ -2,7 +2,7 @@ package javaBasic.EXERCISES_1.task_6;
 
 import java.util.Scanner;
 
-public class getSumAndAverage {
+public class GetSumAndAverage {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

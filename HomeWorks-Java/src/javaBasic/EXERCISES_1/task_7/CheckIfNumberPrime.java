@@ -2,7 +2,7 @@ package javaBasic.EXERCISES_1.task_7;
 
 import java.util.Scanner;
 
-public class checkIfNumberPrime {
+public class CheckIfNumberPrime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();

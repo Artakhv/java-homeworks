@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 //Write a program to get a number from the user and print whether it is positive or negative.
 
-public class guessNegOrPos {
+public class GuessNegOrPos {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(bufferedReader.readLine());

@@ -1,8 +1,8 @@
-package javaBasic.EXERCISES_1.task_5;
+package javaBasic.EXERCISES_1.task_4;
 
 import java.util.Scanner;
 
-public class guessSmallest {
+public class GuessGreatest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
@@ -12,6 +12,6 @@ public class guessSmallest {
     }
 
     public static int max(int x, int y) {
-        return x <= y ? x : y;
+        return x >= y ? x : y;
     }
 }
