@@ -4,6 +4,8 @@ import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class calculateSquare {
+    //    Generate a random int number in range 10 - 100
+    //    calculate the square of it. Convert the result to String,  print the result.
     public static void main(String[] args) {
         int randomNumber = ThreadLocalRandom.current().nextInt(11, 90);
         System.out.println(square(randomNumber));
