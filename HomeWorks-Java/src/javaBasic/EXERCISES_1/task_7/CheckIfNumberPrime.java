@@ -18,6 +18,7 @@ public class CheckIfNumberPrime {
         return true;
     }
   /// recommended way
+
     public static boolean isPrime(int n) {
         if (n < 2) {
             return false;
