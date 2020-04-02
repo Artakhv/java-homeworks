@@ -22,9 +22,9 @@ public enum Month {
 
     public static Month getByNumber(final int number) {
         final Month[] availableWeekDays = Month.values();
-        for (final Month weekDay : availableWeekDays) {
-            if (weekDay.number == number) {
-                return weekDay;
+        for (final Month month : availableWeekDays) {
+            if (month.number == number) {
+                return month;
             }
         }
         throw new IllegalArgumentException("We don't support such number.");
