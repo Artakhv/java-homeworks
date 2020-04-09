@@ -12,7 +12,7 @@ public class Randomizer {
         System.out.println(basket);
     }
 
-    private static void addItemsToBasket(long diff, Basket basket) {
+    private static void addItemsToBasket(long diff, final Basket basket) {
         while (diff > 0) {
             String string = generateRandomString();
             basket.addString(string);
