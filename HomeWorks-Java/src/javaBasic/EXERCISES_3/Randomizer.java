@@ -5,7 +5,7 @@ import static javaBasic.EXERCISES_3.Util.*;
 public class Randomizer {
     public static void main(String[] args) throws InterruptedException {
         final int seconds;
-        seconds = 3; //Integer.parseInt(args[0]);
+        seconds = Integer.parseInt(args[0]);
         final long diff = getMileSecondsDifferenceInNSeconds(seconds);
         final Basket basket = new Basket();
         addItemsToBasket(diff, basket);

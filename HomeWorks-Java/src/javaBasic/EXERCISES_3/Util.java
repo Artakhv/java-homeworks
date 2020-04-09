@@ -28,7 +28,6 @@ public class Util {
         for (int i = 0; i < lengthOfString; i++) {
             int smallIndex = getIntsFromBetween(97, 122);
             randomString += charToString(smallIndex);
-//            System.out.println(randomString);
         }
         return randomString;
     }
