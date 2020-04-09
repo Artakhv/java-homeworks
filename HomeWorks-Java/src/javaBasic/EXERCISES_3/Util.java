@@ -41,9 +41,9 @@ public class Util {
     }
 
     public static long getMileSecondsDifferenceInNSeconds(final  int n) throws InterruptedException {
-        final long startDateInMileSeconds = Util.getTimeNowInMileSeconds();
+        final long startDateInMileSeconds = getTimeNowInMileSeconds();
         Thread.sleep(n * 1000);
-        final long endDateInMileSeconds = Util.getTimeNowInMileSeconds();
+        final long endDateInMileSeconds = getTimeNowInMileSeconds();
         return endDateInMileSeconds - startDateInMileSeconds;
     }
 }
