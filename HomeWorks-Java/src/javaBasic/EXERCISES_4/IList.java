@@ -14,7 +14,7 @@ public interface IList<E> {
     void addAll(int index, IList<E> list);
     boolean equals(Object o);
     int hashCode();
-    E get(int index);
-    E set(int index, E element);
+    Object get(int index);
+    Object set(int index, E element);
 
 }
